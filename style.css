@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #0f0;
+  text-align: center;
+}
+
+#game {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  grid-template-rows: repeat(10, 40px);
+  gap: 2px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  border: 1px solid #333;
+}
+
+.wall {
+  background-color: #333;
+}
+
+.player {
+  background-color: #0f0;
+  color: #000;
+}
+
+.enemy {
+  background-color: #f00;
+  color: #fff;
+}
+
+.key {
+  background-color: #ff0;
+}
+
+.exit {
+  background-color: #00f;
+  color: #fff;
+}
